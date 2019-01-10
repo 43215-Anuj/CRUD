@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/T1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Student Details"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:textColor="#0F00FF"
+        android:padding="30dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/T1"
+        android:id="@+id/E1"
+        android:ems="10"
+        android:layout_centerHorizontal="true"
+        android:padding="20dp"
+        android:hint="Enter Student Name"
+        />
+
+    <Button
+        android:id="@+id/Btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ViewStd"
+        android:text="View Details"
+        android:padding="10dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/E4"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        android:background="#99FAAA"
+        />
+
+</RelativeLayout>
